@@ -1,0 +1,14 @@
+Package: com.rpetrich.attachmentencryptor
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 0.1
+Description: Fix for iOS 7's attachment encryption bug
+	Fix for iOS 7 mail attachment encryption bug discovered by Andreas Kurtz
+Name: AttachmentEncryptor
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Ryan Petrich <rpetrich+attachmentencryptor@gmail.com>
+Tag: purpose::extension
+dev: rpetrich
